@@ -276,6 +276,7 @@ function initPlanets(gl) {
   ];
 }
 
+// draw model
 function drawModel(gl, programInfo, buffers, projectionMatrix,
     modelViewMatrix, modelColor) {
   gl.useProgram(programInfo.program);
